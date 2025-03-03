@@ -7,8 +7,19 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+    <div class="turno-display">
+      <h1 id="turno" class="numero-turno">01</h1>
+      <p class="texto-turno">Por favor, acérquese al mostrador</p>
+    </div>
+    <div class="cambiarTurno">
+      <button id="botonmenos">Anterior</button>
+      <button id="botonmas">Siguiente</button>
+      <button id="reset" type="reset">Reset</button>
+    </div>
+    <div class="setearTurno">
+      <h1 id="turno" class="numero-turno">Setear turno</h1>
+      <input type="text" id="turnoInput"/>
+      <button id="setear">Setear turno</button>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
